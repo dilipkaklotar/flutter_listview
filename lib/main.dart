@@ -12,11 +12,6 @@ void main() {
       floatingActionButton: FloatingActionButton(
          child: Icon(Icons.add),
           onPressed: (){
-
-
-
-
-
       }),
     ),
   ));
@@ -38,9 +33,7 @@ Widget getListView() {
           title: Text(listItems[index]),
 
           onTap: () {
-
             _showDialog(context, '${listItems[index]} Clicked');
-
           },
         );
       });
