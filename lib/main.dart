@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(MaterialApp(
-    title: 'Flutter ListView Example',
+    title: 'Flutter ListView',
     home: Scaffold(
 
       appBar: AppBar(
